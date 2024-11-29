@@ -84,7 +84,7 @@ ol {
 }
 
 .content__list-item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 33px;
 }
 
 .content__card-link {
@@ -101,18 +101,19 @@ ol {
 
 .content__video-card {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
+  flex-shrink: 0;
   object-fit: cover;
   object-position: center;
 }
 
 .content__video-card-description-container {
-  width: 100%;
+  max-width: 100%;
 }
 
 .search-form__fieldset-title {
@@ -139,6 +140,7 @@ ol {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -221,6 +223,7 @@ ol {
   background-color: transparent;
   color: white;
   border: 1px white solid;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
