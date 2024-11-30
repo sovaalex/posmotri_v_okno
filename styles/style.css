@@ -113,7 +113,7 @@ ol {
 }
 
 .content__video-card-description-container {
-  max-width: 100%;
+  max-width: 198px;
 }
 
 .search-form__fieldset-title {
@@ -128,7 +128,7 @@ ol {
   line-height: 70.5px;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
-  margin-bottom: 26px;
+  margin-bottom: 23px;
 }
 
 .content__accent {
